@@ -1,0 +1,131 @@
+
+	@font-face {
+        font-family: "Exo2-Medium";
+        src: url("../fonts/Exo2-Medium.ttf");
+    }
+    @font-face {
+        font-family: "Exo2-MediumItalic";
+        src: url("../fonts/Exo2-MediumItalic.ttf");
+    }
+    @font-face {
+        font-family: "Exo2-Bold";
+        src: url("../fonts/Exo2-Bold.ttf");
+    }
+    @font-face {
+        font-family: "Exo2-BoldItalic";
+        src: url("../fonts/Exo2-BoldItalic.ttf");
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: url("images/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        display: flex;
+        height: 600vh
+    }
+    #block-body {
+        width: 1500px;
+        height: auto;
+    }
+    header {
+       width: 1500px; 
+       height: 85px;
+       background-color: rgb(7, 7, 7);
+    }
+    .logo {
+        width: 200px;
+        float: left;
+        height: 80px;
+    }
+    .logo a {
+        display: block;
+        margin-left: 15px;
+        margin-top: 0px;
+        font-family: "Exo2-Bold", sans-serif;
+        font-size: 28px;
+        color:  #ff00ff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .logo p {
+        margin-left: 20px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-family:  "Exo2-Medium", sans-serif;
+        font-size: 13px;
+        color: white;
+    }
+    .top-menu {
+        display: flex;
+    }
+    .top-menu li {  
+        width: 200px;
+            list-style: none;
+           
+            position: relative;
+       
+    }
+    .top-menu a  {
+        text-align: center;
+           display: block;
+            width: 171px;
+            text-decoration: none;
+            font-family:  "Exo2-Medium", sans-serif;
+            font-size: 17px;
+            color: white;
+            height: 55px;
+            padding-top: 25px;
+            line-height: 40px;
+            
+        }
+        .top-menu a:hover {
+            color: rgb(188, 0, 226);
+        }
+        .top-menu ul {
+         
+            position: absolute;
+            left: 0;
+            top: 100%;
+            display: none;
+            padding: 0;
+        }
+        .top-menu li:hover ul {
+            display: block;
+            background: #000000a2;
+            background-size: 100px;
+        }
+    .lox {
+        float: left;
+        padding: 30px;
+
+    }
+.neonText6 {
+    color: rgb(243, 205, 255);
+    text-shadow:
+        0 0 7px rgb(248, 189, 248),
+        0 0 10px rgb(197, 197, 197),
+        0 0 21px rgb(211, 211, 211),
+        0 0 42px rgb(255, 137, 229),
+        0 0 82px rgba(255, 0, 200, 0.178),
+        0 0 92px rgba(255, 0, 179, 0.295),
+        0 0 102px rgb(195, 152, 206),
+        0 0 151px rgb(184, 120, 209);
+        font-size: 38px;
+  }
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+    
+  h1 {
+      font-size: 38px;
+  }   
+  .container6 {
+margin-top: 20px;
+}
